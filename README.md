@@ -56,10 +56,12 @@ Metric1 is mAP and Metric2 is recall(threshold = 0.5)
 
 #### Q 1.6 Initialize the model from ImageNet (till the conv5 layer), initialize the rest of layers with Xavier initialization and train the model using batchsize=32, learning rate=0.01, epochs=30. Evaluate every 2 epochs. (Hint: also try lr=0.1 - best value varies with implementation of loss) \[Expected training time: 45mins-75mins].
 ![](submission/q1_6/q1_plots/q1_6_train_loss.png)
-![](submission/q1_6/q1_plots/q1_6_train_metric1.png)
-![](submission/q1_6/q1_plots/q1_6_train_metric2.png)
-![](submission/q1_6/q1_plots/q1_6_val_metric1.png)
-![](submission/q1_6/q1_plots/q1_6_val_metric2.png)
+
+|![](submission/q1_6/q1_plots/q1_6_train_metric1.png)|![](submission/q1_6/q1_plots/q1_6_train_metric2.png)|
+|:---:|:---:|
+
+|![](submission/q1_6/q1_plots/q1_6_val_metric1.png)|![](submission/q1_6/q1_plots/q1_6_val_metric2.png)|
+|:---:|:---:|
 
 |![](submission/q1_6/train/q1_6_im1_orig.png)|![](submission/q1_6/train/q1_6_heatmap_im1_epoch0.png)|![](submission/q1_6/train/q1_6_im1_heatmap_epoch15.png)|![](submission/q1_6/train/q1_6_heatmap_im1_ep30.png)|
 |:---:|:---:|:-----------------------------------------------------:|:---:|
@@ -97,7 +99,16 @@ Val:
 With Alexnet_localizer I used global max pooling to get the 1x1 predicted output.
 With Alexnet_robust I used global average pooling to get the 1x1 predicted output.
 
-![](submission/q1_7/1.png)![](submission/q1_7/2.png)![](submission/q1_7/3.png)![](submission/q1_7/4.png)![](submission/q1_7/5.png)
+![](submission/q1_7/4.png)
+
+|![](submission/q1_7/1.png)| ![](submission/q1_7/5.png) |
+|:---:|:--------------------------:|
+
+| ![](submission/q1_7/2.png) |![](submission/q1_7/3.png)|
+|:--------------------------:|:------------------------:|
+
+
+
 
 Train:
 
@@ -136,50 +147,36 @@ Val:
 
 ## Task 2: Weakly Supervised Deep Detection Networks
 
-![](submission/q2/plots/q2_train_loss.png)
-![](submission/q2/plots/q2_val_loss.png)
-![](submission/q2/plots/q2_mAP.png)
+|![](submission/q2/plots/q2_train_loss.png)|![](submission/q2/plots/q2_val_loss.png)|![](submission/q2/plots/q2_mAP.png)|
+|:---:|:---:|:---:|
 
 
 
 
-Class-wise AP
-![](submission/q2/plots/val_ap_aero.png)
-![](submission/q2/plots/val_ap_bicycle.png)
-![](submission/q2/plots/val_ap_bird.png)
-![](submission/q2/plots/val_ap_bus.png)
-![](submission/q2/plots/val_ap_cat.png)
-![](submission/q2/plots/val_ap_monitor.png)
-![](submission/q2/plots/val_ap_motorbike.png)
+#### Class-wise AP
+
+|![](submission/q2/plots/val_ap_aero.png)|![](submission/q2/plots/val_ap_bicycle.png)|![](submission/q2/plots/val_ap_bird.png)|
+|:---:|:---:|:---:|
+|![](submission/q2/plots/val_ap_bus.png)|![](submission/q2/plots/val_ap_cat.png)|![](submission/q2/plots/val_ap_monitor.png)|
 
 Class-wise AP: (Please ignore the middle column, AP are on the left, class on the right)
 ![](submission/q2/plots/Class_wise_AP.png)
 
-##**mAP: 0.13**
+##### **mAP: 0.13**
 
-First Epoch:
+#### First Epoch:
 
-![](submission/images/image7.png)
-![](submission/images/image51.png)
-![](submission/images/image22.png)
-![](submission/images/image50.png)
-![](submission/images/image46.png)
-![](submission/images/image15.png)
-![](submission/images/image29.png)
-![](submission/images/image8.png)
-![](submission/images/image35.png)
+|![](submission/images/image7.png)|![](submission/images/image51.png)|![](submission/images/image22.png)|
+|:---:|:---:|:---:|
+|![](submission/images/image50.png)|![](submission/images/image46.png)|![](submission/images/image15.png)|
+|![](submission/images/image29.png)|![](submission/images/image8.png)|![](submission/images/image35.png)|
 
 
-Last Epoch:
+#### Last Epoch:
 
-![](submission/images/image45.png)
-![](submission/images/image2.png)
-![](submission/images/image58.png)
-![](submission/images/image31.png)
-![](submission/images/image27.png)
-![](submission/images/image56.png)
-![](submission/images/image9.png)
-![](submission/images/image21.png)
-![](submission/images/image55.png)
+|![](submission/images/image45.png)|![](submission/images/image2.png)|![](submission/images/image58.png)|
+|:---:|:---:|:---:|
+|![](submission/images/image31.png)|![](submission/images/image27.png)|![](submission/images/image56.png)|
+|![](submission/images/image9.png)|![](submission/images/image21.png)|![](submission/images/image55.png)|
 
 
