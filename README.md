@@ -65,16 +65,17 @@ Metric1 is mAP and Metric2 is recall(threshold = 0.5)
 |:---:|:---:|:-----------------------------------------------------:|:---:|
 | *original* | *epoch 0* |                      *epoch 15*                       | *epoch 30* |
 
-|![](submission/q1_6/train/q1_6_train_im2_orig.png)|![](submission/q1_6/train/q1_6_train_heatmap_im2_ep0.png)|![](submission/q1_6/train/q1_6_img2_heatmap_epoch15.png)|![](submission/q1_6/train/q1_6_heatmap_im2_ep30.png)
+|![](submission/q1_6/train/q1_6_train_im2_orig.png)|![](submission/q1_6/train/q1_6_train_heatmap_im2_ep0.png)|![](submission/q1_6/train/q1_6_img2_heatmap_epoch15.png)|![](submission/q1_6/train/q1_6_heatmap_im2_ep30.png)|
 |:---:|:---:|:-----------------------------------------------------:|:---:|
 | *original* | *epoch 0* |                      *epoch 15*                       | *epoch 30* |
 
 |![](submission/q1_6/im1_media_images_Val_image_7352_0.png)| ![](submission/q1_6/hm_1media_images_Val_heatmap_7351_0.png) |
-|:---:|:------------------------------------------------------------:|
-|![](submission/q1_6/im1_media_images_Val_image_7508_0.png)|  ![](submission/q1_6/hm_3media_images_Val_heatmap_7507_0.png)|
-|:---:|                            :---:                             |
+|:---:|:---:|
+| *original* |                        *Val heatmap*                         |  
+|![](submission/q1_6/im1_media_images_Val_image_7508_0.png)| ![](submission/q1_6/hm_3media_images_Val_heatmap_7507_0.png) |
+| *original* |                        *Val heatmap*                         |  
 |![](submission/q1_6/im2_media_images_Val_image_7404_0.png)| ![](submission/q1_6/hm_2media_images_Val_heatmap_7403_0.png) |
-| *original* |                           *Val heatmap*                            |  
+| *original* |                        *Val heatmap*                         |  
 
 
 Train: 
