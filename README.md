@@ -1,15 +1,15 @@
 # Weakly Supervised Object Localization
 
-In this assignment, we will learn to train object detectors in the weakly supervised setting, which means you're going to train object detectors without bounding box annotations!
+In this assignment, we will learn to train object detectors in the weakly supervised setting, which means we're going to train object detectors without bounding box annotations!
 
-We will use the PyTorch framework to design our models, train and test them. We will also be using Weights and Biases for visualizations and to log our metrics. This assignment borrows heavily from the previous version, but is now upgraded to Python 3, and does not depend upon the now deprecated Faster-RCNN repository.
+We will use the [PyTorch](pytorch.org) framework to design our models, train and test them. We will also be using [Weights and Biases](https://wandb.ai/site) for visualizations and to log our metrics. This assignment borrows heavily from the [previous version](https://bitbucket.org/cmu16824_spring2020/2020_hw2_release/src/master/), but is now upgraded to Python 3, and does not depend upon the now deprecated Faster-RCNN repository.
 
 We will be implementing slightly simplified versions of the following approaches in this assignment:
 
-Oquab, Maxime, et al. "Is object localization for free?-weakly-supervised learning with convolutional neural networks." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2015. Link
-Bilen, Hakan, and Andrea Vedaldi. "Weakly supervised deep detection networks." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2016. Link
+1. Oquab, Maxime, et al. "*Is object localization for free?-weakly-supervised learning with convolutional neural networks.*" Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2015. [Link](https://www.di.ens.fr/~josef/publications/Oquab15.pdf)
+2. Bilen, Hakan, and Andrea Vedaldi. "*Weakly supervised deep detection networks*." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2016. [Link](https://www.robots.ox.ac.uk/~vgg/publications/2016/Bilen16/bilen16.pdf)
 
-We will train and test using the PASCAL VOC 2007 data. The Pascal VOC dataset comes with bounding box annotations, however, we will not use bounding box annotations in the weakly supervised setting.
+We will train and test using the [PASCAL VOC 2007](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/index.html) data. The Pascal VOC dataset comes with bounding box annotations, however, we will not use bounding box annotations in the weakly supervised setting. 
 
 
 #### Q 0.1: What classes does the image at index 2020 contain (index 2020 is the 2021-th image due to 0-based numbering)?
