@@ -1,0 +1,6 @@
+/data
+/VOCdevkit
+pretrained_alexnet.pkl
+.ipynb_checkpoints
+.idea
+.DS_Store
