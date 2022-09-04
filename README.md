@@ -1,5 +1,17 @@
 # Weakly Supervised Object Localization
 
+In this assignment, we will learn to train object detectors in the weakly supervised setting, which means you're going to train object detectors without bounding box annotations!
+
+We will use the PyTorch framework to design our models, train and test them. We will also be using Weights and Biases for visualizations and to log our metrics. This assignment borrows heavily from the previous version, but is now upgraded to Python 3, and does not depend upon the now deprecated Faster-RCNN repository.
+
+We will be implementing slightly simplified versions of the following approaches in this assignment:
+
+Oquab, Maxime, et al. "Is object localization for free?-weakly-supervised learning with convolutional neural networks." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2015. Link
+Bilen, Hakan, and Andrea Vedaldi. "Weakly supervised deep detection networks." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2016. Link
+
+We will train and test using the PASCAL VOC 2007 data. The Pascal VOC dataset comes with bounding box annotations, however, we will not use bounding box annotations in the weakly supervised setting.
+
+
 #### Q 0.1: What classes does the image at index 2020 contain (index 2020 is the 2021-th image due to 0-based numbering)?
 
 Image at index 2020 has the following classes: "Train"
